@@ -64,7 +64,7 @@ defaultcfg = {
                         'pak0^7', 'common-spog', 'zUrT42_0001',
                         'zUrT42_0002', 'zUrT42_0003', 'zUrT42_0004',
                         'zUrT42_0005', 'zUrT42_0006', 'zUrT42_0007',
-                        'zUrT42_0008', 'zUrT42_0009']
+                        'zUrT42_0008', 'zUrT42_0009', 'zUrT42_0010', 'zUrT42_0011', 'zUrT42_0012']
 }}
 
 class ConfigFile():
