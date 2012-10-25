@@ -21,7 +21,7 @@ defaultcfg = {
     'rconip': "localhost:27960",
     'servercommand': "~/UrbanTerror/ioUrTded.i386 +set dedicated 2 +exec server.cfg" ,
     'serversocket': "/tmp/quake3_27961",
-    'plugins':[],
+    'plugins':["admin"],
     'leetlevel':5,
     'groups':[
         {'name':'guest', 'minlevel':0, 'maxlevel':1, 'levels':[]},
