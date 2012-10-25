@@ -20,7 +20,7 @@ GAMETYPE_TS = 4
 GAMETYPE_FTL = 5
 GAMETYPE_CAH = 6
 GAMETYPE_CTF = 7
-GAMETYPE_BM = 8
+GAMETYPE_BOMB = 8
 
 gametypes = {
 0: 'ffa', #Free For All
@@ -31,7 +31,7 @@ gametypes = {
 5: 'ftl', #Follow The Leader
 6: 'cah', #Capture And Hold
 7: 'ctf', #Capture The Flag
-8: 'bm' #Bomb
+8: 'bomb' #Bomb
 }
 
 
