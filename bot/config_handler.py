@@ -24,12 +24,12 @@ defaultcfg = {
     'plugins':["admin"],
     'leetlevel':5,
     'groups':[
-        {'name':'guest', 'minlevel':0, 'maxlevel':1, 'levels':[]},
-        {'name':'user', 'minlevel':1, 'maxlevel':2, 'levels':[]},
-        {'name':'member', 'minlevel':1, 'maxlevel':3, 'levels':[]},
-        {'name':'mod', 'minlevel':1, 'maxlevel':4, 'levels':[]},
-        {'name':'admin', 'minlevel':1, 'maxlevel':5, 'levels':[]},
-        {'name':'uberadmin', 'minlevel':1, 'maxlevel':6, 'levels':[]}
+        {'name':'Guest', 'minlevel':0, 'maxlevel':1, 'levels':[]},
+        {'name':'User', 'minlevel':1, 'maxlevel':2, 'levels':[]},
+        {'name':'Member', 'minlevel':1, 'maxlevel':3, 'levels':[]},
+        {'name':'Moderator', 'minlevel':1, 'maxlevel':4, 'levels':[]},
+        {'name':'Admin', 'minlevel':1, 'maxlevel':5, 'levels':[]},
+        {'name':'SuperAdmin', 'minlevel':1, 'maxlevel':6, 'levels':[]}
     ],
     'permissions':{
     },
