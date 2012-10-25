@@ -145,7 +145,7 @@ class Bot():
         self.hasauth = bool((self.Q.getCvar('auth_enable'))) #@NOTE this can fail !!
         log.debug('Hasauth: %s' % self.hasauth)
         self.Q.rcon('sv_sayprefix "%s: "' % self.config.botConfig['prefix'])
-        self.Q.rcon('sv_tellprefix "%s [PM]: "' % self.config.botConfig['prefix'])
+        self.Q.rcon('sv_tellprefix "^5[PRIV.] %s "' % self.config.botConfig['prefix'])
         self.Q.rcon('sv_demonotice ""')
 
         self.getGameType() #Set g_gametype in self.gamedata
