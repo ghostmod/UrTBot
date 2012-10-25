@@ -23,14 +23,14 @@ GAMETYPE_CTF = 7
 GAMETYPE_BM = 8
 
 gametypes = {
-0: 'ffa', #free for all
+0: 'ffa', #Free For All
 1: 'lms', #Last Man Standing
 2: None,
-3: 'tdm', #Team death match
-4: 'ts', #Team survivor
-5: 'ftl', #Follow the leader
-6: 'cah', #Capture and hold
-7: 'ctf', #Capture the flag
+3: 'tdm', #Team Death Match
+4: 'ts', #Team Survivor
+5: 'ftl', #Follow The Leader
+6: 'cah', #Capture And Hold
+7: 'ctf', #Capture The Flag
 8: 'bm' #Bomb
 }
 
