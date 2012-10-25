@@ -14,6 +14,7 @@ flagactions = {
 }
 
 GAMETYPE_FFA = 0
+GAMETYPE_LMS = 1
 GAMETYPE_TDM = 3
 GAMETYPE_TS = 4
 GAMETYPE_FTL = 5
@@ -23,7 +24,7 @@ GAMETYPE_BM = 8
 
 gametypes = {
 0: 'ffa', #free for all
-1: None,
+1: 'lms', #Last Man Standing
 2: None,
 3: 'tdm', #Team death match
 4: 'ts', #Team survivor
