@@ -146,7 +146,7 @@ class Bot():
         log.debug('Hasauth: %s' % self.hasauth)
         self.Q.rcon('sv_sayprefix "%s: "' % self.config.botConfig['prefix'])
         self.Q.rcon('sv_tellprefix "^5[PRIV.] %s "' % self.config.botConfig['prefix'])
-        self.Q.rcon('sv_demonotice ""')
+        self.Q.rcon('sv_demonotice "^2[^1!^2]^5 Smile! Youre on camera!"')
 
         self.getGameType() #Set g_gametype in self.gamedata
         self.getCurrentMap() #set mapname in self.gamedata
