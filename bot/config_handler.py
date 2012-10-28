@@ -17,10 +17,10 @@ defaultcfg = {
     'prefix': "^1[^2BOT^1]: ",
     'cmd_prefix':'!',
     'cmd_on_team_say':True,
-    'rcon': "MyPassword123",
+    'rcon': "MyRconPassword",
     'rconip': "localhost:27960",
-    'servercommand': "~/UrbanTerror/ioUrTded.i386 +set dedicated 2 +exec server.cfg" ,
-    'serversocket': "/tmp/quake3_27961",
+    'servercommand': "~/UrbanTerror/Quake3-UrT-Ded.i386 +set dedicated 2 +set net_port 27960 +exec server.cfg" ,
+    'serversocket': "/tmp/quake3-urt_27960",
     'plugins':["admin"],
     'leetlevel':5,
     'groups':[

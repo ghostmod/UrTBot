@@ -5,3 +5,4 @@
 	- Disconnects (most important)
 	- Hot potato (semi-important)
 - Remove dateutil dependencies (soon plz!)
+- Add auth support for account admin 
